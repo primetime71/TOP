@@ -1,7 +1,9 @@
+
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
+    --primary-text: #f9faf8;
 }
 
 header {
@@ -10,6 +12,8 @@ header {
     align-items: center;
     min-height: 3rem;
     border-bottom: 1px solid black;
+    background-color: #1f2937;
+    color: var(--primary-text);
 }
 
 #header-section-1{
@@ -22,9 +26,11 @@ header {
 
 .header-links{
     text-decoration: none;
-    color: black;
+    color: var(--primary-text);
     padding: 1em;
 }
+
+
 #header-section-2{
     display: flex;
     justify-content: center;
